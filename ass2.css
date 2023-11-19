@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: red;
+    width: 90%;
+    height: 20vh;
+    display: flex;
+
+}
+img{
+    border-radius: 50%;
+}
+.images{
+    width: 40%;
+    height: 20vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    width: 60%;
+    height: 20vh;
+    /* border: 2px dotted blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+h3{
+    font-size:50px ;
+}
+p{
+    font-size: larger;
+}
+.footer{
+    width: 90%;
+    border: 2px solid red;
+    height: 40vh;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+.id1{
+    width: 20%;
+    border: 2px white;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 60px;
+}
+.id2{
+    width: 80%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+}
+@media screen and (max-width:576px){
+    .main{
+        background-color: red;
+        width: auto;
+        height: auto;
+        display: block;
+    
+    }
+    img{
+        border-radius: 50%;
+    }
+    .images{
+        width: auto;
+        height: auto;
+        /* border: 2px solid blue; */
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .msg{
+        width: auto;
+        height: auto;
+        /* border: 2px dotted blue; */
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    .footer{
+        width: auto;
+        border: 2px solid red;
+        height: auto;
+        /* background-color: aqua; */
+        display: block;
+    
+    }
+    .id1{
+        width: auto;
+        border: 2px white;
+        height: auto;
+        display: block;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 60px;
+    }
+    .id2{
+        width: auto;
+        border: 2px solid white;
+        display: block;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-evenly;
+        font-size: 20px;
+        
+    }
+
+}
+
